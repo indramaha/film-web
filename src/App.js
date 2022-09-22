@@ -9,8 +9,8 @@ function App() {
   return (
     <div>
       {/* indtro section */}
+      <NavigationBar />
       <div className="myBG">
-        <NavigationBar />
         <Intro />
       </div>
       {/* end of intro */}

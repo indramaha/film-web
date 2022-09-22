@@ -2,7 +2,7 @@ import {Navbar, Container, Nav, NavbarBrand} from "react-bootstrap"
 
 const NavigationBar = () => {
     return (
-        <Navbar variant="dark">
+        <Navbar bg="warning" variant="light" sticky="top">
             <Container>
                 <NavbarBrand href="/">Cinema XXI</NavbarBrand>
                 <Nav>
